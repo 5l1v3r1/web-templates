@@ -7,7 +7,8 @@
     "authors": [
         {
             "name": "Cvar1984",
-            "email": "gedzsarjuncomuniti@gmail.com"
+            "email": "gedzsarjuncomuniti@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -15,7 +16,10 @@
     },
     "suggest": {
         "pimple": "*",
-        "fzaninotto/faker": "*"
+        "fzaninotto/faker": "*",
+        "ext-Zend-OPcache": "^7.4",
+        "ext-PDO": "^7.4",
+        "ext-Phar": "^7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.4",
@@ -24,7 +28,8 @@
         "tracy/tracy": "*",
         "psr/log": "*",
         "mikey179/vfsstream": "*",
-        "devster/ubench": "~2.0.0"
+        "devster/ubench": "~2.0.0",
+        "ext-xdebug": "^2.9"
     },
     "autoload": {
         "psr-4": {
